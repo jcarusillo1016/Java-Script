@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Customer Information</title>
+<link href="CSS.css" rel="stylesheet" type="text/css">
+</head>
+
+<script>
+function validateForm(){
+var x ==document.forms["myform"]["FirstName","LastName","E-mail"].value;
+if (x== "") {
+alert("A Name must be entered");
+return false;
+}
+}
+</script>
+
+<body>
+
+<h1>Customer Information</h1>
+
+<form name="myform" onsubmit="return validateForm()" method="post">
+
+First Name:<br>
+<input type="text" name="FirstName"> 
+<br>
+Last name:<br>
+<input type="text" name="LastName">
+<br>
+E-mail:<br>
+<input type="text" name="E-mail">
+<br>
+<input type="submit" value="Submit">
+
+</form>
+
+<p> You must click the "Submit" button</p>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+body {
+    background-color: darkslategrey;
+    color: azure;
+    font-size: 10px;
+}
+h1 {
+    color: coral;
+}
+#Firstname {
+    color: white;font-size: 10px;
+}
+#Lastname{
+    color: white;font-size: 10px;
+}
+#E-mail{
+	color:white;font-size: 10px;
+}
